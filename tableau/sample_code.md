@@ -5,7 +5,7 @@ The sample code is only for reference, you need to integrate it into the applica
 
 ## Before you start
 To successfully use the sample project, you need the following:
--  EnOS API SDK Version 0.1.47
+-  EnOS™ API SDK Version 0.1.47
 -  [JDK 1.8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 - [Maven 3](https://maven.apache.org/install.html)
 

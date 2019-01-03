@@ -1,4 +1,4 @@
-EnOS BI&Report
+EnOS™ BI&Report
 --------------
 
 .. toctree::

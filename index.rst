@@ -1,42 +1,51 @@
-***********************
-数据分析与报告
-***********************
+﻿EnOS报表
+---------
 
 .. toctree::
    :maxdepth: 1
-   :caption: Back to
+   :hidden:
+   :caption: 返回
 
-   EnOS fundamental <https://docs.envisioniot.com/docs/enos/en/latest/overview/enos_introduction.html>
-
-.. toctree::
-    :maxdepth: 1
-    :caption: EnOS Data Explorer
-
-    data_explorer/overview
-    data_explorer/gettingstarted
-    data_explorer/interpreter
-    data_explorer/creating_hivetable
+   EnOS™ 智能物联网操作系统 <https://docs.envisioniot.com/docs/enos/zh_CN/latest/overview/enos_introduction.html>
 
 .. toctree::
    :maxdepth: 1
-   :caption: EnOS BI & Report
+   :caption: 概念
 
-   bi_report/overview
-
-.. toctree::
-   :maxdepth: 1
-   :caption: Tableau Server
-
-   tableau/overview
-   tableau/using_tableau_server
-   tableau/sample_code
+   report_overview
+   report_concepts
+   report_architecture
 
 .. toctree::
    :maxdepth: 1
-   :caption: Related Services
+   :caption: 入门指引
 
-   Real-time data processing <https://docs.envisioniot.com/docs/online-data/en/latest/>
-   Batch data processing <https://docs.envisioniot.com/docs/offline-data/en/latest/>
+   gettingstarted_report
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 操作
+
+   managing_datasource
+   creating_dataset
+   managing_dataset
+   creating_report
+   charts_controls/index
+   managing_report
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 参考信息
+
+   best_practice
+   report_faq
+
+.. toctree::
+   :maxdepth: 1
+   :caption: 关联主题
+
+   流式计算 <https://docs.envisioniot.com/docs/online-data/en/latest/>
+   Offline Analytics <https://docs.envisioniot.com/docs/offline-data/en/latest/>
 
 Downloads
 """"""""
