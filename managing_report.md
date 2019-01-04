@@ -73,7 +73,7 @@ BI & Report提供丰富的图表组件，包括柱图、线图、饼图、交叉
 
 发布报表有两种途径：
 
-- 报表列表页面，选择一个报表，点击右侧的**![dataset_menu_extend](E:\Envision\3 BigData\1 Data Report\2 用户手册\BI&Report\ZH\PIC\dataset_menu_extend.png)**按钮，在展开菜单中，点击**发布**并**确定**
+- 报表列表页面，选择一个报表，点击右侧的**![dataset_menu_extend](media/dataset_menu_extend.png)**按钮，在展开菜单中，点击**发布**并**确定**
 - 报表编辑页面，点击右上角的**发布**按钮并**确认**
 
 ![report_publish](media/report_publish.png)
@@ -84,7 +84,7 @@ BI & Report提供丰富的图表组件，包括柱图、线图、饼图、交叉
 
 下线报表的途径是：
 
-报表列表页面，选择一个已发布的报表，点击右侧的**![dataset_menu_extend](E:\Envision\3 BigData\1 Data Report\2 用户手册\BI&Report\ZH\PIC\dataset_menu_extend.png)**按钮。在展开菜单中，点击**下线**并**确认**。此时，URL地址已失效。在浏览器中输入URL地址时，将显示**请注意，该链接已失效！**
+报表列表页面，选择一个已发布的报表，点击右侧的**![dataset_menu_extend](media/dataset_menu_extend.png)**按钮。在展开菜单中，点击**下线**并**确认**。此时，URL地址已失效。在浏览器中输入URL地址时，将显示**请注意，该链接已失效！**
 
 ![report_offline](media/report_offline.png)
 
@@ -125,7 +125,7 @@ BI & Report提供丰富的图表组件，包括柱图、线图、饼图、交叉
 
 点击画布中的空白位置，组件配置区将出现全局设置。勾选**显示分页线**，画布中会按照分页位置，显示一条虚线。您可以按照虚线位置调整图表或控件的大小。导出PDF时，报表将按照分页线的位置，划分为不同的页面。
 
-![report_pageline](media\report_pageline.png)
+![report_pageline](media/report_pageline.png)
 
 
 
@@ -158,7 +158,7 @@ BI & Report提供丰富的图表组件，包括柱图、线图、饼图、交叉
 
 登录**控制台**，选择**BI & Report**，然后选择**报表**。
 
-在报表列表页面，点击报表右侧的展开按钮**![dataset_menu_extend](media/dataset_menu_extend.png)",在展开的菜单中选择**复制**。系统将自动创建所选报表的副本，且带上**_副本**以作提示。
+在报表列表页面，点击报表右侧的展开按钮![dataset_menu_extend](media/dataset_menu_extend.png)，在展开的菜单中选择**复制**。系统将自动创建所选报表的副本，且带上“_副本”后缀以作提示。
 
 
 
@@ -166,7 +166,7 @@ BI & Report提供丰富的图表组件，包括柱图、线图、饼图、交叉
 
 登录**控制台**，选择**BI & Report**，然后选择**报表**。
 
-在报表列表页面，点击报表右侧的展开按钮**![dataset_menu_extend](media/dataset_menu_extend.png)",在展开的菜单中选择**删除**并**确定**。
+在报表列表页面，点击报表右侧的展开按钮![dataset_menu_extend](media/dataset_menu_extend.png)，在展开的菜单中选择**删除**并**确定**。
 
 ## 相关信息
 

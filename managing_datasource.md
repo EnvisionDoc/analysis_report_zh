@@ -10,23 +10,23 @@
 
 2. 创建目标表
 
-   从左边的导航菜单选择**数据探索**，参见[创建hive类型的工作簿](../data_explorer/creating_hivetable)创建目标表。若目标表已存在，则可以跳过这一步。
+   从左边的导航菜单选择**数据探索**，参见[创建Hive表](https://docs.envisioniot.com/docs/data-explorer/zh_CN/latest/creating_hivetable.html)创建目标表。若目标表已存在，则可以跳过这一步。
 
 3. 创建数据集成任务
 
-   从左边的导航菜单选择**数据集成**，点击新建任务流，创建数据集成任务，并完成任务流配置。根据业务需要，可以通过数据过滤，同步部分数据。详细任务流配置，参见[数据集成](https://docs.envisioniot.com/docs/offline-data/en/latest/data_integration/index.html).
+   从左边的导航菜单选择**数据集成**，点击新建任务流，创建数据集成任务，并完成任务流配置。根据业务需要，可以通过数据过滤，同步部分数据。详细任务流配置，参见[数据集成](https://docs.envisioniot.com/docs/offline-data/zh_CN/latest/data_integration/index.html).
 
 4. （可选）创建数据开发任务
 
-   若数据ETL开发逻辑比较复杂，可以选择**数据开发套件 > 任务开发**。点击新建任务流，创建任务流。详细任务流配置，参见[数据开发套件](https://docs.envisioniot.com/docs/offline-data/en/latest/data_ide/dataide_overview.html).
+   若数据ETL开发逻辑比较复杂，可以选择**数据开发套件 > 任务开发**。点击新建任务流，创建任务流。详细任务流配置，参见[数据开发套件](https://docs.envisioniot.com/docs/offline-data/zh_CN/latest/data_ide/dataide_overview.html).
 
 5. 运行任务并查看监控
 
-   点击**预跑**，然后到**任务监控**，查看任务流运行情况。详见[任务监控](https://docs.envisioniot.com/docs/offline-data/en/latest/task_monitor/index.html)。
+   点击**预跑**，然后到**任务监控**，查看任务流运行情况。详见[数据运维](https://docs.envisioniot.com/docs/offline-data/zh_CN/latest/task_monitor/index.html)。
 
 6. 查询数据导入结果
 
-   任务成功后，进入**数据探索**，查询导入到hive表的数据。
+   任务成功后，进入**数据探索**，查询导入到Hive表的数据。
 
 7. 在Report DB中创建目标表
 

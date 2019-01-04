@@ -28,6 +28,6 @@
 
      ![pic_legend](../media/pic_legend.png)
 
-8. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](D:/docs/analysis_report_zh/media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
+8. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)。在下拉菜单中选择**删除**，删除所选控件。
 
 9. 配置完成后，点击工具栏中的**保存**。

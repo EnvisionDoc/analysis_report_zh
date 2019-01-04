@@ -18,7 +18,7 @@
 
 发布报表有两种途径：
 
-- 报表列表页面，选择一个报表，点击右侧的**![dataset_menu_extend](media/dataset_menu_extend.png)**按钮，在展开菜单中，点击**发布**并**确定**
+- 报表列表页面，选择一个报表，点击右侧的![dataset_menu_extend](media/dataset_menu_extend.png)按钮，在展开菜单中，点击**发布**并**确定**
 - 报表编辑页面，点击右上角的**发布**按钮并**确认**
 
 ![report_publish](media/report_publish.png)

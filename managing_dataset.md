@@ -27,14 +27,14 @@
 
 ### 删除数据集
 
-在数据集列表页面，点击数据集右侧的展开按钮![dataset_menu_extend](media/dataset_menu_extend.png)",在展开的菜单中选择**删除**并点击**确定**。
+在数据集列表页面，点击数据集右侧的展开按钮![dataset_menu_extend](media/dataset_menu_extend.png),在展开的菜单中选择**删除**并点击**确定**。
 
 **注意**：在已创建的报表中，若已关联了该数据集，将被同步删除。即配置该数据集的图表将显示数据为空。
 
 
 ### 复制数据集
 
-在数据集列表页面，点击数据集右侧的展开按钮![dataset_menu_extend](media/dataset_menu_extend.png)",在展开的菜单中选择**复制**并点击**确定**。系统将自动创建以**副本**为后缀的新数据集。
+在数据集列表页面，点击数据集右侧的展开按钮![dataset_menu_extend](media/dataset_menu_extend.png),在展开的菜单中选择**复制**并点击**确定**。系统将自动创建以**副本**为后缀的新数据集。
 
 ### 编辑数据集
 

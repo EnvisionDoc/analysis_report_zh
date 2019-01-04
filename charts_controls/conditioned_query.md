@@ -75,7 +75,7 @@
 
        ![search_legend_input](../media/search_legend_input.png)
 
-12. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
+12. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)。在下拉菜单中选择**删除**，删除所选控件。
 
 13. 配置完成后，点击工具栏中的**保存**。
 
@@ -121,7 +121,7 @@
 
        ![search_legend_dropdown](../media/search_legend_dropdown.png)
 
-16. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
+16. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)。在下拉菜单中选择**删除**，删除所选控件。
 
 17. 配置完成后，点击工具栏中的**保存**。
 
@@ -169,7 +169,7 @@
 
        ![search_legend_tile](../media/search_legend_tile.png)
 
-16. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
+16. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)。在下拉菜单中选择**删除**，删除所选控件。
 
 17. 配置完成后，点击工具栏中的**保存**。
 
@@ -217,7 +217,7 @@
 
        ![search_legend_tree](../media/search_legend_tree.png)
 
-16. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
+16. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)。在下拉菜单中选择**删除**，删除所选控件。
 
 17. 配置完成后，点击工具栏中的**保存**。
 
@@ -257,7 +257,7 @@
 
        ![search_legend_calendar](../media/search_legend_calendar.png)
 
-13. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)"。在下拉菜单中选择**删除**，删除所选控件。
+13. 若需要删除所选控件。需要先选中控件，然后点击标题栏右上角的![chart_spread](../media/chart_spread.png)。在下拉菜单中选择**删除**，删除所选控件。
 
 14. 配置完成后，点击工具栏中的**保存**。
 
