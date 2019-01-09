@@ -21,3 +21,4 @@ BI & Report提供丰富的图表组件，包括柱图、线图、饼图、交叉
    conditioned_query
    figure
    multiple_chart_interlock
+   filter
