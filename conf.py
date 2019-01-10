@@ -146,23 +146,16 @@ htmlhelp_basename = u'EnOSDocumentationCenterdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_elements = {
-    # The paper size ('letterpaper' or 'a4paper').
-    #
-    'papersize': 'a4paper',
-
-    # The font size ('10pt', '11pt' or '12pt').
-    #
-    'pointsize': '10pt',
-
-    # Additional stuff for the LaTeX preamble.
-    #
-    'preamble': '\geometry{a4paper,left=3cm,right=3cm,top=2cm,bottom=2cm}',
-
-    # Latex figure (float) alignment
-    #
-    'figure_align': 'htbp',
-}
+latex_elements={# The paper size ('letterpaper' or 'a4paper').
+'papersize':'a4paper',# The font size ('10pt', '11pt' or '12pt').
+'pointsize':'10pt','classoptions':',oneside','babel':'',
+'inputenc':'',
+'utf8extra':'',
+# Additional stuff for the LaTeX preamble.
+'preamble': r"""
+\usepackage[utf8]{inputenc}
+\geometry{a4paper,left=3cm,right=3cm,top=2cm,bottom=2cm}
+"""}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
