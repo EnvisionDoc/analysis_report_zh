@@ -3,13 +3,6 @@
 
 .. toctree::
    :maxdepth: 1
-   :hidden:
-   :caption: 返回
-
-   EnOS™ 智能物联网操作系统 <https://docs.envisioniot.com/docs/enos/zh_CN/latest/overview/enos_introduction.html>
-
-.. toctree::
-   :maxdepth: 1
    :caption: 概念
 
    report_overview
@@ -44,12 +37,13 @@
    :maxdepth: 1
    :caption: 关联主题
 
-   流式计算 <https://docs.envisioniot.com/docs/online-data/en/latest/>
-   Offline Analytics <https://docs.envisioniot.com/docs/offline-data/en/latest/>
+   流式计算 <https://www.envisioniot.com/docs/online-data/zh_CN/latest/streaming_overview.html>
+   离线分析 <https://www.envisioniot.com/docs/offline-data/zh_CN/latest/gettingstarted.html>
+
 
 Downloads
 """"""""
     pdf_ htmlzip_ epub_
-.. _pdf: https://docs.envisioniot.com/projects/analysis-report/downloads/pdf/latest/
-.. _htmlzip: https://docs.envisioniot.com/projects/analysis-report/downloads/htmlzip/latest/
-.. _epub: https://docs.envisioniot.com/projects/analysis-report/downloads/epub/latest/
+.. _pdf: https://www.envisioniot.com/projects/analysis-report/downloads/pdf/latest/
+.. _htmlzip: https://www.envisioniot.com/projects/analysis-report/downloads/htmlzip/latest/
+.. _epub: https://www.envisioniot.com/projects/analysis-report/downloads/epub/latest/

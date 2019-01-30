@@ -2,7 +2,7 @@
 
 在开始创建报表之前，你需要了解下图所示相关概念。
 
-![](media/report_concepts.png)
+.. image:: media/report_concepts.png
 
 ## 数据源
 

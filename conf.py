@@ -77,7 +77,7 @@ release = '1'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = 'en_us'
+language = 'zh_CN'
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
@@ -96,7 +96,7 @@ todo_include_todos = True
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = 'sphinx_rtd_theme'
+html_theme = 'sphinx_enos_theme'
 
 #import alabaster
 
@@ -146,16 +146,23 @@ htmlhelp_basename = u'EnOSDocumentationCenterdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
-latex_elements={# The paper size ('letterpaper' or 'a4paper').
-'papersize':'a4paper',# The font size ('10pt', '11pt' or '12pt').
-'pointsize':'10pt','classoptions':',oneside','babel':'',
-'inputenc':'',
-'utf8extra':'',
-# Additional stuff for the LaTeX preamble.
-'preamble': r"""
-\usepackage[utf8]{inputenc}
-\geometry{a4paper,left=3cm,right=3cm,top=2cm,bottom=2cm}
-"""}
+latex_elements = {
+    # The paper size ('letterpaper' or 'a4paper').
+    #
+    'papersize': 'a4paper',
+
+    # The font size ('10pt', '11pt' or '12pt').
+    #
+    'pointsize': '10pt',
+
+    # Additional stuff for the LaTeX preamble.
+    #
+    'preamble': '\geometry{a4paper,left=3cm,right=3cm,top=2cm,bottom=2cm}',
+
+    # Latex figure (float) alignment
+    #
+    'figure_align': 'htbp',
+}
 
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
@@ -213,7 +220,3 @@ epub_exclude_files = ['search.html']
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {'https://docs.python.org/': None}
-
-# custom css
-def setup(app):
-    app.add_stylesheet('css/custom.css')

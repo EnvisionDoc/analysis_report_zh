@@ -10,12 +10,17 @@ BI & Report服务主要有以下优势：
 - **安全性高**：基于平台完善的安全体系，对数据安全进行控制。
 
 通过EnOS BI & Report服务创建报表的核心流程为：
+
 1. 连接_数据源_
+
 2. 创建_数据集_
+
 3. 制作_报表_
 
 BI & Report服务相关概念的描述，参见[概念](report_concepts).
 
 下图为可视化报表的样例，你可以参考[快速入门](gettingstarted_report)，来制作自己的第一张报表。
 
-![sample](media/sample.png)
+.. image:: media/sample.png
+
+<!--end-->

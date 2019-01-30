@@ -2,7 +2,7 @@
 
 BI & Report产品架构图如下图所示。
 
-![infrastructure](media/infrastructure.png)
+.. image:: media/infrastructure.png
 
 BI & Report主要模块及功能:
 

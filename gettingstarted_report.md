@@ -2,11 +2,14 @@
 
 该文章阐述了如何将数据源的数据同步至BI & Report的数据库，然后在线快速制作数据可视化报表。
 
-![workflow](media/workflow.png)
+.. image:: media/workflow.png
 
 通过EnOS BI&Report创建报表的主要流程为：
+
 1. 从数据源同步数据至Report DB。
+
 2. 基于同步的数据创建数据集。
+
 3. 基于数据集制作报表。
 
 ## 步骤1：从数据源同步数据至Report DB
@@ -15,53 +18,59 @@
 
 1. 添加数据源
 
-   登录**控制台**，从左边的导航菜单选择**数据源管理**，完成数据源信息配置。有关EnOS支持的数据源类型及如何配置连接至数据源，参见[数据源管理](https://docs.envisioniot.com/docs/offline-data/zh_CN/latest/data_source/datasource_overview.html).
+   登录 **控制台**，从左边的导航菜单选择 **数据源管理**，完成数据源信息配置。有关EnOS支持的数据源类型及如何配置连接至数据源，参见[数据源管理](https://www.envisioniot.com/docs/offline-data/zh_CN/latest/data_source/datasource_overview.html).
 
 2. 创建目标表
 
-   从左边的导航菜单选择**数据探索**，参见[创建Hive表](https://docs.envisioniot.com/docs/data-explorer/zh_CN/latest/creating_hivetable.html)创建目标表。若目标表已存在，则可以跳过这一步。
+   从左边的导航菜单选择 **数据探索**，参见[创建Hive表](https://www.envisioniot.com/docs/data-explorer/zh_CN/latest/creating_hivetable.html)创建目标表。若目标表已存在，则可以跳过这一步。
 
 3. 创建数据集成任务
 
-   从左边的导航菜单选择**数据集成**，点击新建任务流，创建数据集成任务，并完成任务流配置。根据业务需要，可以通过数据过滤，同步部分数据。详细任务流配置，参见[数据集成](https://docs.envisioniot.com/docs/offline-data/zh_CN/latest/data_integration/index.html).
+   从左边的导航菜单选择 **数据集成**，点击新建任务流，创建数据集成任务，并完成任务流配置。根据业务需要，可以通过数据过滤，同步部分数据。详细任务流配置，参见[数据集成](https://www.envisioniot.com/docs/offline-data/zh_CN/latest/data_integration/index.html).
 
 4. （可选）创建数据开发任务
 
-   若数据ETL开发逻辑比较复杂，可以选择**数据开发套件 > 任务开发**。点击新建任务流，创建任务流。详细任务流配置，参见[数据开发套件](https://docs.envisioniot.com/docs/offline-data/zh_CN/latest/data_ide/dataide_overview.html).
+   若数据ETL开发逻辑比较复杂，可以选择 **数据开发套件 > 任务开发**。点击新建任务流，创建任务流。详细任务流配置，参见[数据开发套件](https://www.envisioniot.com/docs/offline-data/zh_CN/latest/data_ide/dataide_overview.html).
 
 5. 运行任务并查看监控
 
-   点击**预跑**，然后到**任务监控**，查看任务流运行情况。详见[数据运维](https://docs.envisioniot.com/docs/offline-data/zh_CN/latest/task_monitor/index.html)。
+   点击 **预跑**，然后到 **任务监控**，查看任务流运行情况。详见[数据运维](https://www.envisioniot.com/docs/offline-data/zh_CN/latest/task_monitor/taskmonitor_overview.html)。
 
 6. 查询数据导入结果
 
-   任务成功后，进入**数据探索**，查询导入到hive表的数据。
+   任务成功后，进入 **数据探索**，查询导入到hive表的数据。
 
 7. 在Report DB中创建目标表
 
-   选择**数据探索**，新建mysql_report类型的工作簿，在Report DB中创建目标表。若目标表已存在，则可以跳过这一步。
+   选择 **数据探索**，新建mysql_report类型的工作簿，在Report DB中创建目标表。若目标表已存在，则可以跳过这一步。
 
 8. 同步表数据到Report DB
 
-   选择**数据集成**，点击新建任务流，创建数据集成任务。数据源选择Hive类型，目标表选择Report DB，并完成任务流配置。点击预跑，然后到**任务监控**模块查看任务状态。
+   选择 **数据集成**，点击新建任务流，创建数据集成任务。数据源选择Hive类型，目标表选择Report DB，并完成任务流配置。点击预跑，然后到 **任务监控** 模块查看任务状态。
 
 
 ## 步骤2：基于同步的数据创建数据集
 
 步骤1中的数据同步任务成功后：
 
-1. 选择**BI & Report > 数据**，选择**数据源**标签，点击页面右上角的**切换到单表模式**或**切换到SQL模式**创建数据集。
-2. 选择**数据集**标签，点击编辑按钮编辑数据集的维度和度量字段。即完成数据准备。
+1. 选择 **BI & Report > 数据**，选择 **数据源** 标签，点击页面右上角的 **切换到单表模式**或 **切换到SQL模式** 创建数据集。
 
-详见[创建数据集](creating_dataset).
+2. 选择 **数据集** 标签，点击编辑按钮编辑数据集的维度和度量字段。即完成数据准备。
+
+详见[创建数据集](creating_dataset).   
 
 ## 步骤3：基于数据集制作报表
 
 BI & Report提供丰富的图表组件，包括柱图、线图、饼图、交叉表、指标块、仪表盘、散点图及突出显示表，可以满足丰富的数据可视化需求。
 
-1. 选择**BI & Report**，然后选择**报表**。点击**新建报表**，进入报表编辑页面。
-2. 根据需要添加图表组件。
-3. 可以在**数据**中选择数据集，配置维度或度量字段来完成数据配置。还可以在**样式**中设置不同的图表展示效果。对于支持多图关联的图表，可以在**高级**中，配置与其他图表的关联关系，实现多图联动查询的效果。
-详见[报表图表制作](creating_chart)。
+1. 选择 **BI & Report**，然后选择 **报表**。点击 **新建报表**，进入报表编辑页面。
 
-![sample](media/sample.png)
+2. 根据需要添加图表组件。
+
+3. 可以在 **数据** 中选择数据集，配置维度或度量字段来完成数据配置。还可以在 **样式** 中设置不同的图表展示效果。对于支持多图关联的图表，可以在 **高级** 中，配置与其他图表的关联关系，实现多图联动查询的效果。
+
+详见[报表图表制作](creating_report)。
+
+.. image:: media/sample.png
+
+<!--end-->
