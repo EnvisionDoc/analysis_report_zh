@@ -1,6 +1,6 @@
 # 数据源管理
 
-在EnOS<sup>TM</sup> IoT平台中，为每个开通BI & Report模块的组织，默认自动创建一个数据库Report DB。不同组织之间，数据库隔离，以保证数据安全。您可以使用数据探索工具，在Report DB中创建数据源表。然后使用数据集成工具，将Hive中的数据同步至目标数据源表。
+在EnOS<sup>TM</sup> IoT平台中，为每个开通数据报表模块的组织，默认自动创建一个数据库Report DB。不同组织之间，数据库隔离，以保证数据安全。您可以使用数据探索工具，在Report DB中创建数据源表。然后使用数据集成工具，将Hive中的数据同步至目标数据源表。
 
 ## 操作步骤
 
@@ -18,7 +18,7 @@
 
 4. （可选）创建数据开发任务
 
-   若数据ETL开发逻辑比较复杂，可以选择 **数据开发套件 > 任务开发**。点击新建任务流，创建任务流。详细任务流配置，参见[数据开发套件](https://www.envisioniot.com/docs/offline-data/zh_CN/latest/data_ide/dataide_overview.html).
+   若数据ETL开发逻辑比较复杂，可以选择 **数据开发套件 > 数据开发**。点击新建任务流，创建任务流。详细任务流配置，参见[数据开发套件](https://www.envisioniot.com/docs/offline-data/zh_CN/latest/data_ide/dataide_overview.html).
 
 5. 运行任务并查看监控
 

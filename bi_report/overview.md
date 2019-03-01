@@ -1,12 +1,12 @@
-# BI&Report overview
+# 数据报表
 
-EnOS™ BI & Report is a lightweight intelligent analysis servicethat is oriented to the energy sector. It aims to lower the threshold for user data analysis and to quickly complete visual presentation.
+EnOS™ 数据报表 is a lightweight intelligent analysis servicethat is oriented to the energy sector. It aims to lower the threshold for user data analysis and to quickly complete visual presentation.
 
-Primarily intended for data analysts and developers, BI & Report provides full lifecycle functions from data source connection, dataset generation, to data visualization. BI & Reports can be inserted to your operation system or can exist as independent portals. You can quickly build data analysis reports through interactive drag-and-drop operation. Its reporting platform helps lower the cost and threshold to acquire, process, and analyze data, and thereby avoid duplicate efforts in front-end development.
+Primarily intended for data analysts and developers, 数据报表 provides full lifecycle functions from data source connection, dataset generation, to data visualization. 数据报表s can be inserted to your operation system or can exist as independent portals. You can quickly build data analysis reports through interactive drag-and-drop operation. Its reporting platform helps lower the cost and threshold to acquire, process, and analyze data, and thereby avoid duplicate efforts in front-end development.
 
 ## Key benefits
 
-The built-in BI & report function of EnOS™ brings the following benefits:
+The built-in 数据报表 function of EnOS™ brings the following benefits:
 
 - **Seamless data integration**: seamlessly integrates EnOS™ cloud databases and supports multiple data sources such as MySQL and postgreSQL.
 - **Seamless component integration**: seamlessly interfaces with EnOS™ energy component libraries to provide abundant data visualization charts and controls that meet visualization requirements for different business scenarios.
@@ -17,7 +17,7 @@ The built-in BI & report function of EnOS™ brings the following benefits:
 
 The basic objects in a reporting platform include data sources, datasets and reports, as described below:
 
-- **Data source**: Before making a report, you need to prepare the data or specify the data source where raw data is located. BI & Report automatically associates corresponding data sources according to your permissions in the EnOS™ System. Currently, the supported data source is MySQL. For more information about data source, see [Data source management](https://docs.eniot.com/docs/offline-data/en/latest/data_source/datasource_overview.html).
+- **Data source**: Before making a report, you need to prepare the data or specify the data source where raw data is located. 数据报表 automatically associates corresponding data sources according to your permissions in the EnOS™ System. Currently, the supported data source is MySQL. For more information about data source, see [Data source management](https://docs.eniot.com/docs/offline-data/en/latest/data_source/datasource_overview.html).
 
 - **Dataset**: Once a data source is connected, simple logical processing based on one or more data source tables can be performed to get a logic table that has a connection to the source tables. The logical table is a dataset. The dataset can be referenced directly in the report design. So that you can focus on the design instead of caring about the underlying logical processing of the source tables.
 

@@ -1,15 +1,15 @@
-EnOS™ BI&Report
---------------
+数据报表
+=================
 
 .. toctree::
-    :maxdepth: 1
-    :caption: Learn
+   :maxdepth: 1
+   :caption: Learn
 
-    overview
-    gettingstarted
+   overview
+   gettingstarted
 
 .. toctree::
-    :maxdepth: 1
-    :caption: How-to's
+   :maxdepth: 1
+   :caption: How-to's
 
-    creating_report
+   creating_report
