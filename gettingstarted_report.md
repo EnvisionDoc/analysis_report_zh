@@ -18,23 +18,23 @@
 
 1. 添加数据源
 
-   登录 **控制台**，从左边的导航菜单选择 **数据源管理**，完成数据源信息配置。有关EnOS支持的数据源类型及如何配置连接至数据源，参见[数据源管理](https://www.envisioniot.com/docs/offline-data/zh_CN/latest/data_source/datasource_overview.html).
+   登录 **控制台**，从左边的导航菜单选择 **外部源连接**，完成数据源信息配置。有关EnOS支持的数据源类型及如何配置连接至数据源，参见 [外部源连接](/docs/offline-data/zh_CN/latest/data_source/datasource_overview.html)。
 
 2. 创建目标表
 
-   从左边的导航菜单选择 **数据探索**，参见[创建Hive表](https://www.envisioniot.com/docs/data-explorer/zh_CN/latest/creating_hivetable.html)创建目标表。若目标表已存在，则可以跳过这一步。
+   从左边的导航菜单选择 **数据探索**，参见 [创建Hive表](/docs/offline-data/zh_CN/latest/data_explorer/creating_hivetable.html) 创建目标表。若目标表已存在，则可以跳过这一步。
 
 3. 创建数据集成任务
 
-   从左边的导航菜单选择 **数据集成**，点击新建任务流，创建数据集成任务，并完成任务流配置。根据业务需要，可以通过数据过滤，同步部分数据。详细任务流配置，参见[数据集成](https://www.envisioniot.com/docs/offline-data/zh_CN/latest/data_integration/index.html).
+   从左边的导航菜单选择 **数据集成**，点击新建任务流，创建数据集成任务，并完成任务流配置。根据业务需要，可以通过数据过滤，同步部分数据。详细任务流配置，参见 [数据集成](/docs/offline-data/zh_CN/latest/data_integration/index.html)。
 
 4. （可选）创建数据开发任务
 
-   若数据ETL开发逻辑比较复杂，可以选择 **数据开发套件 > 数据开发**。点击新建任务流，创建任务流。详细任务流配置，参见[数据开发套件](https://www.envisioniot.com/docs/offline-data/zh_CN/latest/data_ide/dataide_overview.html).
+   若数据ETL开发逻辑比较复杂，可以选择 **数据开发套件 > 数据开发**。点击新建任务流，创建任务流。详细任务流配置，参见 [数据开发套件](/docs/offline-data/zh_CN/latest/data_ide/dataide_overview.html)。
 
 5. 运行任务并查看监控
 
-   点击 **预跑**，然后到 **任务监控**，查看任务流运行情况。详见[数据运维](https://www.envisioniot.com/docs/offline-data/zh_CN/latest/task_monitor/taskmonitor_overview.html)。
+   点击 **预跑**，然后到 **任务监控**，查看任务流运行情况。参见 [任务流运维](/docs/offline-data/zh_CN/latest/task_monitor/taskmonitor_overview.html)。
 
 6. 查询数据导入结果
 
@@ -57,7 +57,7 @@
 
 2. 选择 **数据集** 标签，点击编辑按钮编辑数据集的维度和度量字段。即完成数据准备。
 
-详见[创建数据集](creating_dataset).   
+详见 [创建数据集](creating_dataset)。
 
 ## 步骤3：基于数据集制作报表
 
@@ -69,7 +69,7 @@
 
 3. 可以在 **数据** 中选择数据集，配置维度或度量字段来完成数据配置。还可以在 **样式** 中设置不同的图表展示效果。对于支持多图关联的图表，可以在 **高级** 中，配置与其他图表的关联关系，实现多图联动查询的效果。
 
-详见[报表图表制作](creating_report)。
+详见 [创建报表](creating_report)。
 
 .. image:: media/sample.png
 

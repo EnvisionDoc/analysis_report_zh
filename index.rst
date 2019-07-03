@@ -35,10 +35,10 @@
 
 .. toctree::
    :maxdepth: 1
-   :caption: 关联主题
+   :caption: 关联服务
 
-   流式计算 <https://www.envisioniot.com/docs/online-data/zh_CN/latest/streaming_overview.html>
-   离线分析 <https://www.envisioniot.com/docs/offline-data/zh_CN/latest/gettingstarted.html>
+   数据资产管理 </docs/data-asset/zh_CN/latest/data_asset_overview.html>
+   数据分析 </docs/offline-data/zh_CN/latest/datalake_analytics_overview.html>
 
 
 Downloads
