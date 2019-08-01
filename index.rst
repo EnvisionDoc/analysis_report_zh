@@ -41,9 +41,3 @@
    数据分析 </docs/offline-data/zh_CN/latest/datalake_analytics_overview.html>
 
 
-Downloads
-""""""""
-    pdf_ htmlzip_ epub_
-.. _pdf: https://www.envisioniot.com/projects/analysis-report/downloads/pdf/latest/
-.. _htmlzip: https://www.envisioniot.com/projects/analysis-report/downloads/htmlzip/latest/
-.. _epub: https://www.envisioniot.com/projects/analysis-report/downloads/epub/latest/

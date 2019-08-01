@@ -142,15 +142,17 @@
 
 登录 **控制台**，选择 **数据报表**，然后选择 **报表**。
 
-在报表列表页面，点击报表右侧的展开按钮 |dataset_menu_extend| ，在展开的菜单中选择 **复制**。系统将自动创建所选报表的副本，且带上`_副本`后缀以作提示。
+在报表列表页面，点击报表右侧的展开按钮 |dataset_menu_extend| ，在展开的菜单中选择 **复制**。
 
-.. |dataset_menu_extend| image:: media/dataset_menu_extend.png
+系统将自动创建所选报表的副本，且带上 ``_副本`` 后缀以作提示。
 
 ## 删除报表
 
 登录 **控制台**，选择 **数据报表**，然后选择 **报表**。
 
 在报表列表页面，点击报表右侧的展开按钮 |dataset_menu_extend| ，在展开的菜单中选择 **删除** 并 **确定**。
+
+.. |dataset_menu_extend| image:: media/dataset_menu_extend.png
 
 ## 相关信息
 
